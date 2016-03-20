@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC]
+
+RewriteCond %{REQUEST_FILENAME} >""
+RewriteRule ^page\-([^\.]+)$ page.php?pagename=$1 [L]
+
+<Files schema>
+    Deny from all
+</Files>
