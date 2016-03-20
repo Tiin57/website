@@ -1,0 +1,4 @@
+*.bat
+composer.lock
+vendor
+inc/credentials.php
