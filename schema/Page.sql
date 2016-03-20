@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `Page` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) NOT NULL,
+    `filename` VARCHAR(255) NOT NULL,
+    `html` TEXT NOT NULL,
+    `markdown` TEXT NOT NULL,
+    `show` TINYINT(1) NOT NULL DEFAULT 1,
+PRIMARY KEY(`id`));
