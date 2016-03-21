@@ -64,3 +64,11 @@ ul.navbar li a:hover {
 .bold {
     font-weight: bold;
 }
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
